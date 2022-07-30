@@ -11,6 +11,15 @@ export default (appInfo: EggAppInfo) => {
   // add your egg config in here
   config.middleware = [];
 
+  config.security = {
+    xframe: {
+      enable: false,
+    },
+    csrf: {
+      ignoreJSON: true,
+    },
+  };
+
   config.view = {
     mapping: {
       '.nj': 'nunjucks',
