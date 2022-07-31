@@ -9,5 +9,8 @@ export default (app: Application) => {
   /** schema start */
   router.post('/api/v1/schema/upload', controller.schema.upload);
   /** schema end */
+
+  router.post('/api/v1/page/create', controller.page.create);
+  router.get('/api/v1/page/list', controller.page.list);
 };
 

@@ -29,6 +29,25 @@ export default (appInfo: EggAppInfo) => {
     },
     useAgent: true,
   };
+  config.mysql = {
+    // database configuration
+    client: {
+      // host
+      host: 'rm-2vc54209qpg86m3g42o.mysql.cn-chengdu.rds.aliyuncs.com',
+      // port
+      port: '3306',
+      // username
+      user: 'maixiaojie',
+      // password
+      password: 'maixiaojie@123',
+      // database
+      database: 'lowcode',    
+    },
+    // load into app, default is open
+    app: true,
+    // load into agent, default is close
+    agent: false,
+  };
 
   config.view = {
     mapping: {

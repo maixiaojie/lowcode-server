@@ -10,6 +10,11 @@ const plugin: EggPlugin = {
     enable: true,
     package: 'egg-oss',
   },
+  mysql: {
+    enable: true,
+    package: 'egg-mysql',
+  }
+
 };
 
 export default plugin;
