@@ -19,6 +19,16 @@ export default (appInfo: EggAppInfo) => {
       ignoreJSON: true,
     },
   };
+  config.oss = {
+    client: {
+      accessKeyId: 'LTAI5t6BkQW4RpAnZTuAejxu',
+      accessKeySecret: 'EUuBTKYGISJ82JyGIfttvDhFTLuZT1',
+      bucket: 'tracys',
+      endpoint: 'oss-cn-chengdu.aliyuncs.com',
+      timeout: '60s',
+    },
+    useAgent: true,
+  };
 
   config.view = {
     mapping: {
