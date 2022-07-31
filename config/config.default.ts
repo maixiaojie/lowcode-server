@@ -21,10 +21,10 @@ export default (appInfo: EggAppInfo) => {
   };
   config.oss = {
     client: {
-      accessKeyId: 'LTAI5t6BkQW4RpAnZTuAejxu',
-      accessKeySecret: 'EUuBTKYGISJ82JyGIfttvDhFTLuZT1',
-      bucket: 'tracys',
-      endpoint: 'oss-cn-chengdu.aliyuncs.com',
+      accessKeyId: 'xxx',
+      accessKeySecret: 'xxx',
+      bucket: 'xxx',
+      endpoint: 'xxx',
       timeout: '60s',
     },
     useAgent: true,
@@ -33,13 +33,13 @@ export default (appInfo: EggAppInfo) => {
     // database configuration
     client: {
       // host
-      host: 'rm-2vc54209qpg86m3g42o.mysql.cn-chengdu.rds.aliyuncs.com',
+      host: 'xxx',
       // port
       port: '3306',
       // username
-      user: 'maixiaojie',
+      user: 'xxx',
       // password
-      password: 'maixiaojie@123',
+      password: 'xxx',
       // database
       database: 'lowcode',    
     },
